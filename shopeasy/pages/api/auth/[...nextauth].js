@@ -21,19 +21,19 @@ export const authOptions = {
   // Configure one or more authentication providers
   providers: [
     GoogleProvider({
-      clientId: GOOGLE_CLIENT_ID,
-      clientSecret: GOOGLE_CLIENT_SECRET
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET
     }),
     FacebookProvider({
-      clientId: FACEBOOK_CLIENT_ID,
-      clientSecret: FACEBOOK_CLIENT_SECRET
+      clientId: process.env.FACEBOOK_CLIENT_ID,
+      clientSecret: process.env.FACEBOOK_CLIENT_SECRET
     }),
     // ...add more providers here
   ], session: {
     jwt: true
   },
 
-  database: MONGODB_URI,
+  database: process.env.MONGODB_URI,
   callbacks: {
     async signIn({ user, account, profile }) {
       await dbConnect()
@@ -71,7 +71,7 @@ export const authOptions = {
       return token
     }
 
-  }, secret: NEXTAUTH_SECRET
+  }, secret: process.env.NEXTAUTH_SECRET
 
 
 }
