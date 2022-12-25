@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# About
+This is the clone of ajio.com which is created by Govind, Bishal, Harsh, Madhukesh and Deepak. In this app you will able to singup into our system and after that login into it. You can explore all the products of our site and if you want to add products to the cart you have to login and after that you can navigate to our products page where you can further go into our products details and after that you can easily able to add that product to the cart. If you want to proceed with the checkout you can do it by clicking on the checkout button where you have to provide your delivery details. 
+In this site there is also an admin panel where you as an admin can see all the products that are listed on the website and also all the users that are currently registered on the website. You can add, delete, edit the products and that will be reflected on the frontend part of the website.
 
-## Getting Started
+## Tech Stack used
+We have used NextJS, Chakra-ui, react router dom, react icons, google's firebase authentication, nextjs sessions to create our frontend and technologies like mongodb, mongoose for our backend.
 
-First, run the development server:
+## clone our site
+you can use `git clone https://github.com/Hars28/economic-nest-8248.git` to clone our code.
+after that go into the folder by typing cd /shopeasy
+after that `npm install` to install dependencies 
+and the `npm run start` to run the app
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Team Members
+- [Govind](https://github.com/singh-govind)
+- [Bishal](https://github.com/bishal00sharma)
+- [Harsh](https://github.com/Hars28)
+- [Madhukesh](https://github.com/Madhukesh06)
+- [Deepak](https://github.com/Deepumandal)
