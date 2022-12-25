@@ -1,4 +1,3 @@
-const { string } = require('i/lib/util')
 const mongoose = require('mongoose')
 
 const schema = new mongoose.Schema(

@@ -1,4 +1,7 @@
-{"homepage" : "http://deepumandal.github.io/economic-nest-8248/"
+
+{
+  "homepage": "https://deepumandal.github.io/shopeasy",
+
   "name": "shopeasy",
   "version": "0.1.0",
   "private": true,
@@ -8,7 +11,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
@@ -21,21 +26,15 @@
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
     "fast-two-sms": "^3.0.0",
-    "firebase": "^9.13.0",
-    "framer-motion": "^6.5.1",
-    "googleapis": "^109.0.1",
-    "i": "^0.3.7",
-    "jsonwebtoken": "^8.5.1",
+    "framer-motion": "^8.0.2",
+    "gh-pages": "^4.0.0",
     "mongoose": "^6.7.2",
     "next": "13.0.2",
     "next-auth": "^4.16.4",
-    "nodemailer": "^6.8.0",
-    "npm": "^8.19.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
     "react-slick": "^0.29.0",
-    "redis": "^4.4.0",
     "slick-carousel": "^1.8.1"
   }
 }
